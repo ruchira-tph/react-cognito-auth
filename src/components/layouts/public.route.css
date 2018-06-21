@@ -1,0 +1,8 @@
+.public .app-header {
+    background-color: #222;
+}
+
+.public .content {
+    padding: 0 20px;
+    text-align: center;
+}

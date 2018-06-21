@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.flat-button {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #0080ff;
+    width: 120px;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flat-button:active, .flat-button:hover, .flat-button:focus {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.flat-button.flat-button-secondary {
+    background: #4CAF50;
+    color: #FFFFFF;
+}
+
+.flat-button.flat-button-danger {
+    background: rgb(175, 76, 76);
+    color: #FFFFFF;
+}

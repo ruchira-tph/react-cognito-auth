@@ -1,0 +1,12 @@
+.action-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-action {
+    margin-left: 20px;
+}
+
+.username {
+    padding: 15px 0;
+}
